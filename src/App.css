@@ -1,0 +1,26 @@
+/* Full page layout */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main content grows */
+.main-content {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #282c34 !important;
+}
+
+/* Footer */
+.Footer {
+  background-color: #282c34;
+  color: aliceblue;
+  text-align: center;
+  padding: 15px;
+}
